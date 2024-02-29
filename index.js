@@ -1,8 +1,8 @@
 var express = require("express");
-var app = express(); // Change variable name to 'app'
+var app = express(); 
 
 app.listen(3000, () => {
-    console.log("listening to port number 3000"); // Corrected port number in log message
+    console.log("listening to port number 3000"); 
 });
 
 app.use(express.json());
